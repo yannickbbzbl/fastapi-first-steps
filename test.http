@@ -1,0 +1,42 @@
+@url = http://localhost:8000
+
+
+###
+# Get root page
+GET {{url}}
+
+###
+# Get foo -> bar
+GET {{url}}/foo
+
+###
+# Get all Words
+GET {{url}}/words
+
+
+###
+# Get the word Auto
+GET {{url}}/words/Auto
+
+###
+# Get the unknown word Avatar
+GET {{url}}/words/Avatar
+
+
+###
+# Create a new word Banana
+POST {{url}}/words
+Content-Type: application/json
+
+{
+    "word": "Banana"
+}
+
+###
+# Delete the word Banana
+DELETE {{url}}/words/Banana
+
+###
+# Look at the API documentation by using the following url in your browser
+http://localhost:8000/docs
+```
