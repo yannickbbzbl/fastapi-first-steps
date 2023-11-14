@@ -13,3 +13,4 @@ Erste Schritte mit der FastAPI in Python
 7. Teste Neues Wort erfassen
 7. Teste das Löschen von vorhandenen und unbekannten Worten.
 7. Schau dir die automatisch erstellte API-Dokumentation im Browser an: http://localhost:8000/docs
+---
