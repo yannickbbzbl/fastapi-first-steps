@@ -49,7 +49,7 @@ async def create_word(word: Word):
 
 
 @app.delete("/words/{word}")
-async def create_word(word: str):
+async def delete_word(word: str):
     global word_records
     deleted_word_count = 0
     word_records_new = []
@@ -64,5 +64,3 @@ async def create_word(word: str):
         raise HTTPException(status_code=404, detail="Word not found")
 
     return {"message": f"{deleted_word_count} record(s) deleted"}
-"""
-"""
