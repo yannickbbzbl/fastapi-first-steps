@@ -6,6 +6,9 @@
     "waitFor": "onCreateCommand",
     "updateContentCommand": "pip install -r requirements.txt",
     "postCreateCommand": "",
+    "postAttachCommand": {
+      "server": "uvicorn main:app --reload"
+    },
     "portsAttributes": {
       "8000": {
         "label": "Application",
