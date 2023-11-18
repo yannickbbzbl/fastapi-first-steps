@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 
-app = FastAPI()
+app = FastAPI(title="FastAPI first steps", version="0.0.1")
 
 
 @app.get("/")
