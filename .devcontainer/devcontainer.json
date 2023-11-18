@@ -23,8 +23,8 @@
       },
       "vscode": {
         "extensions": [
-          "ms-python.python",
-          "humao.rest-client"
+          "ms-python.python"
+          
         ]
       }
     },
